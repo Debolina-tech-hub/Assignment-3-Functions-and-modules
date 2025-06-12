@@ -1,0 +1,15 @@
+import math
+x=float(input("Enter a number: "))
+if x>0:
+    y=math.sqrt(x)
+else:
+    print("Please enter a positive number.")
+
+print("Square root: ",y)
+print("Logarithm: ", math.log(x))
+print("Sine: ", math.sin(x))
+#Sample run:
+Enter a number: 23.4
+Square root:  4.8373546489791295
+Logarithm:  3.152736022363656
+Sine:  -0.9869155581206488
